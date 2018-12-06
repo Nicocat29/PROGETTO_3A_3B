@@ -12,6 +12,8 @@ namespace PROGETTO_3A_3B
         {
             string risultato = "";
             int num = 255;
+            Console.WriteLine("inserisci un numero da convertire in binario");
+            num = Convert.ToInt32(Console.ReadLine());
             
             while(num>1)
             {
