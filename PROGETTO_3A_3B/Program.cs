@@ -10,9 +10,9 @@ namespace PROGETTO_3A_3B
     {
         static void Main(string[] args)
         {
-            string risultato;
+            string risultato = "";
             int num = 255;
-            risultato = "";
+            
             while(num>1)
             {
                 int resto =num % 2;
